@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-ln -s /opt/datacarving-lab/ext4.dd /dev/loop0
+ln -s /opt/DFB_lab/ext4.dd /dev/loop0
 rm -rf /content/sample_data
-cp -r /opt/datacarving-lab/challenges /content
+cp -r /opt/DFB_lab/challenges /content
 mkdir -p /content/retrieved_data
 
 apt-get update
