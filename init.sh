@@ -3,7 +3,6 @@
 
 ln -s /opt/DFB_lab/ext4.dd /dev/loop0
 rm -rf /content/sample_data
-cp -r /opt/DFB_lab/challenges /content
 mkdir -p /content/retrieved_data
 
 apt-get update
